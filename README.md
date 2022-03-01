@@ -18,9 +18,9 @@ Foi implemenado executar os comandos enviado pelo o usuário.
 
 ## Strategy
 Foi usado para implementar as agenda de pagamento e também na criação de agenda de pagamento.
-1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java), para ganhar flexibilidade.
-2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java),  para ganhar flexibilidade e eleminar os if.
-3. Criação de empregado, para ganhar flexibilidade e eleminar os if.
+1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java) para ganhar flexibilidade.
+2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java) para ganhar flexibilidade e eleminar os if.
+3. Criação de empregado para ganhar flexibilidade e eleminar os if.
 
 ## Extract Class
 Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criado uma classe sindicato. Analogamente para o cartão de ponto e resultado de venda.\n
