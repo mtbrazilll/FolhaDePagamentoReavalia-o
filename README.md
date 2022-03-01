@@ -43,7 +43,7 @@ foram cirados novas classes que realizam os comandos como o deparmento de funci�
 ## Funções implementadas
 
 Comandos   |  Funções  | descrição | status |  
---------- | --------- | :------: | :------:
+:---------: | --------- | :------: | :------:
 1 | Adição de um empregado     | Adicionar um empregado |:white_check_mark:
 2 | Remoção de um empregado    | Remove um empregado pelo o cpf |:white_check_mark:
 3 | Lançar um Resultado Venda    | Lança um resultado de venda de um empregado comissionado pelo o cpf| :white_check_mark:
