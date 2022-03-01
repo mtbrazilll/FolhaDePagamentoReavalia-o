@@ -35,6 +35,8 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 ## GRASP (Alta coesão)
 Na implementação do padrão Command todos os comandos ficaram na classe "folha de pagamento" deixando o código travado, ingerenciável. Para resolver
 foram cirados novas classes que realizam os comandos como o deparmento de funciónarios, o departemento de finanças, etc. 
+1. Como era
+2. Como ficou
 
 
 
