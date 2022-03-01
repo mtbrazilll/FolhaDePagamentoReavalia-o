@@ -36,7 +36,7 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 1. Tirando as múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
 2. Elimando os métodos longo e código não inteligível  
 
-## Alta coesão
+## GRASP (Alta coesão)
 Na implementação do padrão Command todos os comandos ficaram na classe "folha de pagamento" deixando o código travado, ingerenciável. Para resolver
 foram cirados novas classes que realizam os comandos como o deparmento de funciónarios, o departemento de finanças, etc. 
 
