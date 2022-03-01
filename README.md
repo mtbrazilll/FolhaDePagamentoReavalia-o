@@ -18,8 +18,8 @@ Foi implemenado executar os comandos enviado pelo o usuário.
 
 ## Strategy
 Foi usado para implementar as agenda de pagamento e também na criação de agenda de pagamento.
-1. [Agenda de pagamento;](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java)
-2. [Criação de agenda.](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java)
+1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java), para ganhar flexibilidade.
+2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java),  para ganhar flexibilidade e eleminar os if.
 
 ## Extract Class
 Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criado uma classe sindicato. Analogamente para o cartão de ponto e resultado de venda.\n
@@ -30,7 +30,7 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 # Padrões de projetos implementados na reav
 
 ## Strategy
-1. Criação de empregado
+1. Criação de empregado, para ganhar flexibilidade e eleminar os if.
 
 ## Extract Method
 1. Múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
