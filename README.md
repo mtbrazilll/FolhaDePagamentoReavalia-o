@@ -33,8 +33,8 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 1. Criação de empregado, para ganhar flexibilidade e eleminar os if.
 
 ## Extract Method
-1. Múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
-2. Métodos longo e código não inteligível  
+1. Tirando as múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
+2. Elimando os métodos longo e código não inteligível  
 
 ## Alta coesão
 Na implementação do padrão Command todos os comandos ficaram na classe "folha de pagamento" deixando o código travado, ingerenciável. Para resolver
