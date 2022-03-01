@@ -20,7 +20,7 @@ Foi implemenado executar os comandos enviado pelo o usuário.
 Foi usado para implementar as agenda de pagamento e também na criação de agenda de pagamento.
 1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/AgendaPagamento/Agenda/AgendaDePagamento.java) para ganhar flexibilidade.
 2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/AgendaPagamento/Agenda/AjudaCriarAgenda.java) para ganhar flexibilidade e eleminar os if.
-3. [Criação e alteração de empregado para ganhar flexibilidade e eleminar os if.](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/comandos/comandos/CriaEmpregado.java)
+3. [Criação e alteração] de empregado para ganhar flexibilidade e eleminar os if.(https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/comandos/comandos/CriaEmpregado.java)
 
 ## Extract Class
 Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criado uma classe sindicato. Analogamente para o cartão de ponto e resultado de venda.\n
