@@ -10,7 +10,7 @@
 5. GRASP (Alta coesão)
 
 
-# Padrões de projetos implementados na ab2
+# Padrões de projetos implementados n
 
 ## Command
 Foi implemenado executar os comandos enviado pelo o usuário.
@@ -20,17 +20,13 @@ Foi implemenado executar os comandos enviado pelo o usuário.
 Foi usado para implementar as agenda de pagamento e também na criação de agenda de pagamento.
 1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java), para ganhar flexibilidade.
 2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java),  para ganhar flexibilidade e eleminar os if.
+3. Criação de empregado, para ganhar flexibilidade e eleminar os if.
 
 ## Extract Class
 Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criado uma classe sindicato. Analogamente para o cartão de ponto e resultado de venda.\n
 1. [cartão de ponto](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/cartaoDePonto/cartaoDePonto/CartaoDePonto.java)
 2. [Resultado de venda](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/ResultadoDeVenda/ResultadoDeVenda/ResultadoDeVenda.java)
 3. [Classe Sindicato](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/sindicato/sindicato/Sindicato.java)
-
-# Padrões de projetos implementados na reav
-
-## Strategy
-1. Criação de empregado, para ganhar flexibilidade e eleminar os if.
 
 ## Extract Method
 1. Tirando as múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
