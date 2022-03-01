@@ -26,10 +26,6 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 2. [Resultado de venda](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/ResultadoDeVenda/ResultadoDeVenda/ResultadoDeVenda.java)
 3. [Classe Sindicato](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/sindicato/sindicato/Sindicato.java)
 
-## Feature Envy
-
-Todas as informações dos empregados são obtidas através apenas por métodos da instância.
-
 # Padrões de projetos implementados na reav
 
 ## Strategy
