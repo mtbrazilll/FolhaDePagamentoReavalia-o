@@ -14,19 +14,19 @@
 
 ## Command
 Foi implemenado executar os comandos enviado pelo o usuário.
-1. [Command](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/comandos/comandos/Invoker.java)
+1. [Command](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/comandos/comandos/Invoker.java)
 
 ## Strategy
 Foi usado para implementar as agenda de pagamento e também na criação de agenda de pagamento.
-1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AgendaDePagamento.java) para ganhar flexibilidade.
-2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/AgendaPagamento/Agenda/AjudaCriarAgenda.java) para ganhar flexibilidade e eleminar os if.
-3. Criação e alteração de empregado para ganhar flexibilidade e eleminar os if.
+1. [Agenda de pagamento](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/AgendaPagamento/Agenda/AgendaDePagamento.java) para ganhar flexibilidade.
+2. [Criação de agenda](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/AgendaPagamento/Agenda/AjudaCriarAgenda.java) para ganhar flexibilidade e eleminar os if.
+3. [Criação e alteração de empregado para ganhar flexibilidade e eleminar os if.](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/comandos/comandos/CriaEmpregado.java)
 
 ## Extract Class
 Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criado uma classe sindicato. Analogamente para o cartão de ponto e resultado de venda.\n
-1. [cartão de ponto](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/cartaoDePonto/cartaoDePonto/CartaoDePonto.java)
-2. [Resultado de venda](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/ResultadoDeVenda/ResultadoDeVenda/ResultadoDeVenda.java)
-3. [Classe Sindicato](https://github.com/mtbrazilll/FolhaDePagamentoRefatorado/blob/main/sindicato/sindicato/Sindicato.java)
+1. [cartão de ponto](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/tree/main/Folha%20de%20pagamento%20reav/cartaoDePonto/cartaoDePonto)
+2. [Resultado de venda](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/tree/main/Folha%20de%20pagamento%20reav/ResultadoDeVenda/ResultadoDeVenda)
+3. [Classe Sindicato](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/tree/main/Folha%20de%20pagamento%20reav/sindicato/sindicato)
 
 ## Extract Method
 1. Tirando as múltiplas ocorrências de busca por empregado e pedir cpf ao usuário.
@@ -35,8 +35,8 @@ Em vez de implementar o sindicato em cada tipo(subclase) de empregado, foi criad
 ## GRASP (Alta coesão)
 Na implementação do padrão Command todos os comandos ficaram na classe "folha de pagamento" deixando o código travado, ingerenciável. Para resolver
 foram cirados novas classes que realizam os comandos como o deparmento de funciónarios, o departemento de finanças, etc. 
-1. Como era
-2. Como ficou
+1. [Como era](https://github.com/mtbrazilll/FolhaDePagamentoRefotorado/blob/main/comandos/comandos/Invoker.java)
+2. [Como ficou.](https://github.com/mtbrazilll/FolhaDePagamentoReavalia-o/blob/main/Folha%20de%20pagamento%20reav/comandos/comandos/Invoker.java)
 
 
 
