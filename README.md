@@ -51,7 +51,7 @@ Comandos   |  Funções  | descrição | status |
 3 | Lançar um Resultado Venda    | Lança um resultado de venda de um empregado comissionado pelo o cpf| :white_check_mark:
 4 | Lançar uma taxa de serviço  | Lança uma taxa de serviço de um empregado que seja vinculado a algum sindicato| :white_check_mark:
 5 | Alterar detalhes de um empregado | Altera informações de um empregado|:white_check_mark:
-6 | Rodar a folha de pagamento  | Roda a folha de pagamento para hoje |:white_check_mark:
+6 | Rodar a folha de pagamento  | Roda a folha de pagamento para o dia especificado |:white_check_mark:
 7 | Undo | Disponível para as funcionalidades 1 a 7| :white_check_mark:
 8 | redo | Disponível para as funcionalidades 1 a 7 | :white_check_mark:
 9 | Agenda de Pagamento | Altera agenda de pagamento de um empregado|:white_check_mark:
